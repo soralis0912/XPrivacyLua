@@ -1170,7 +1170,7 @@ class XProvider {
         else {
             dbFile = new File(
                     Environment.getDataDirectory() + File.separator +
-                            "system" + File.separator +
+                            "adb" + File.separator +
                             "xlua" + File.separator +
                             "xlua.db");
             dbFile.getParentFile().mkdirs();
